@@ -1,0 +1,1 @@
+<img class="wowaddons-template-preview-img">
