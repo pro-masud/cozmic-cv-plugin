@@ -25,7 +25,7 @@ if ( ! class_exists( 'Cozmiq_Elementor_Widget_Init' ) ) {
 		* @since 1.0.0
 		*/
 		public function __construct() {
-			add_action( 'elementor/elements/categories_registered', array( $this, '_widget_categories' ) );
+			add_action( 'elementor/elements/categories_registered', array( $this, '_widget_categories' ), 10);
 			//elementor widget registered
 			add_action( 'elementor/widgets/widgets_registered', array( $this, '_widget_registered' ) );
 			// elementor editor css
@@ -51,13 +51,32 @@ if ( ! class_exists( 'Cozmiq_Elementor_Widget_Init' ) ) {
 		 * @since 1.0.0
 		 */
 		public function _widget_categories( $elements_manager ) {
-			$elements_manager->add_category(
-				'cozmiq_widgets',
-				[
-					'title' => esc_html__( 'Cozmiq Widgets', 'cozmiq-cv' ),
-					'icon'  => 'fas fa-plug',
-				]
-			);
+			$slug  = 'cozmiq_widgets';
+			$entry = [
+				'title' => esc_html__( 'Cozmiq Widgets', 'cozmiq-cv' ),
+				'icon'  => 'fas fa-plug',
+			];
+			$elements_manager->add_category( $slug, $entry );
+
+			$cats = $elements_manager->get_categories();
+
+			unset( $cats[ $slug ] );
+
+			$new = [];
+			$inserted = false;
+			foreach ( $cats as $key => $data ) {
+				if ( 'basic' === $key && ! $inserted ) {
+					$new[ $slug ] = $entry;
+					$inserted = true;
+				}
+				$new[ $key ] = $data;
+			}
+			if ( ! $inserted ) {
+				$new = [ $slug => $entry ] + $new;
+			}
+
+			$set = function( $cats_arr ) { $this->categories = $cats_arr; };
+			$set->call( $elements_manager, $new );
 		}
 
 		/**
@@ -69,27 +88,7 @@ if ( ! class_exists( 'Cozmiq_Elementor_Widget_Init' ) ) {
 				return;
 			}
 			$elementor_widgets = array(
-				'banner-one',
-				'facilities-one',
 				'about-one',
-				'room-one',
-				'booking-reserve-one',
-				'special-offer-one',
-				'counter-one',
-				'testimonial-one',
-				'marquee-text-one',
-				'blog-one',
-				'feature-one',
-				'faq-one',
-				'discount-one',
-				'instagram-one',
-				'service-one',
-				'enjoy-hotel-one',
-				'team-one',
-				'team-details',
-				'contact-one',
-				'gallery-one',
-				'food-list-one',
 			);
 
 			$elementor_widgets = apply_filters( 'cozmiq_elementor_widget', $elementor_widgets );
