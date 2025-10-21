@@ -6,7 +6,7 @@
  */
 
 namespace Elementor;
-class Cozmiq_About_One_Widget extends Widget_Base {
+class Cozmiq_Header_Widget extends Widget_Base {
 
     /**
      * Get widget name.
@@ -20,7 +20,7 @@ class Cozmiq_About_One_Widget extends Widget_Base {
      */
     public function get_name()
     {
-        return 'cozmiq-theme-about-one-widget';
+        return 'cozmiq-theme-header-widget';
     }
 
     /**
@@ -35,12 +35,12 @@ class Cozmiq_About_One_Widget extends Widget_Base {
      */
     public function get_title()
     {
-        return esc_html__('About Us', 'cozmiq-cv');
+        return esc_html__('Header', 'cozmiq-cv');
     }
 
     public function get_keywords()
     {
-        return ['Section', 'About', 'Us', 'Cozmiq'];
+        return ['Section', 'Header', 'Cozmiq'];
     }
 
     /**
@@ -105,7 +105,7 @@ class Cozmiq_About_One_Widget extends Widget_Base {
 
         $this->end_controls_section();
         
-        include_once plugin_dir_path(__FILE__) . 'elementor-options/about-one-option.php';
+        include_once plugin_dir_path(__FILE__) . 'elementor-options/header-one-option.php';
 
         //Style tab style
         $this->start_controls_section(
@@ -136,8 +136,8 @@ class Cozmiq_About_One_Widget extends Widget_Base {
     {
         $settings = $this->get_settings_for_display();
 
-       include_once plugin_dir_path(__FILE__) . 'elementor-view/about-one.php';
+       include_once plugin_dir_path(__FILE__) . 'elementor-view/header-one.php';
     }
 }
 
-Plugin::instance()->widgets_manager->register(new Cozmiq_About_One_Widget());
+Plugin::instance()->widgets_manager->register(new Cozmiq_Header_Widget());

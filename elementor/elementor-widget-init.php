@@ -88,7 +88,7 @@ if ( ! class_exists( 'Cozmiq_Elementor_Widget_Init' ) ) {
 				return;
 			}
 			$elementor_widgets = array(
-				'about-one',
+				'header',
 			);
 
 			$elementor_widgets = apply_filters( 'cozmiq_elementor_widget', $elementor_widgets );
