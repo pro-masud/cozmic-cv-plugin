@@ -1,0 +1,1 @@
+# cozmic-cv-plugin
