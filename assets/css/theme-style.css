@@ -1,9 +1,9 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Example HTML Template
-    Author: Theme_Pure
-    Support: help.themepure.net
-    Description: Example HTML Template
+    Template Name: Cozmiq CV
+    Author: Cozmiq Agency
+    Support: cozmiq.agency.com
+    Description: this is portfolio cv wordpress plugin
     Version: 1.0.0
 
 -----------------------------------------------------------------------------------
@@ -127,14 +127,16 @@
 :root {
   --cozmiq-primary-color: #DFDFDF;
   --cozmiq-sec-color: #8D8A8B;
+  --cozmiq-heading-color: #9d9d9d;
   --cozmiq-black: black;
   --cozmiq-white: white;
   --cozmiq-paragrap-color: #f6f6f6;
+  --cozmiq-body-color: #0D0E14;
 }
 
 :root {
-  --cozmiq-fonts-heading: "Outfit", sans-serif;
-  --cozmiq-fonts-body: "PT Serif", serif;
+  --cozmiq-fonts-heading:"PT Serif", serif;
+  --cozmiq-fonts-body: "Outfit", sans-serif;
 }
 
 * {
@@ -144,14 +146,24 @@
 }
 
 /*---------------------------------
+	Cozmiq Container Section With
+---------------------------------*/
+.cozmiq-container {
+  width: 700px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/*---------------------------------
 	typography css start 
 ---------------------------------*/
 body {
-  font-family: var(--cozmiq-fonts-poppins);
+  font-family: var(--cozmiq-fonts-body);
   font-size: 14px;
   font-weight: normal;
   color: var(--cozmiq-black);
   line-height: 26px;
+  background-color: var(--cozmiq-body-color);
 }
 
 a {
@@ -164,7 +176,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--cozmiq-fonts-body);
+  font-family: var(--cozmiq-fonts-heading);
   color: var(--cozmiq-theme-sec-color);
   margin-top: 0px;
   font-weight: 700;
