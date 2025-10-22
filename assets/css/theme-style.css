@@ -161,7 +161,7 @@ body {
   font-family: var(--cozmiq-fonts-body);
   font-size: 14px;
   font-weight: normal;
-  color: var(--cozmiq-black);
+  color: var(--cozmiq-paragrap-color);
   line-height: 26px;
   background-color: var(--cozmiq-body-color);
 }
@@ -177,7 +177,7 @@ h4,
 h5,
 h6 {
   font-family: var(--cozmiq-fonts-heading);
-  color: var(--cozmiq-theme-sec-color);
+  color: var(---cozmiq-heading-color);
   margin-top: 0px;
   font-weight: 700;
   line-height: 1.2;
@@ -3581,6 +3581,132 @@ textarea {
 
 .pr-100 {
   padding-right: 100px;
+}
+
+header.header-area {
+  padding: 50px 10px;
+}
+header.header-area .cozmiq-border {
+  display: block;
+  height: 1px;
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+header.header-area .cozmiq-border .cozmiq-mid-border {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: 2px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+header.header-area .cozmiq-border .cozmiq-mid-border .cozmiq-bg {
+  background: linear-gradient(90deg, rgba(32, 34, 39, 0) 0%, rgb(32, 34, 39) 26.58%, rgb(32, 34, 39) 50%, rgb(32, 34, 39) 76.13%, rgba(32, 34, 39, 0) 100%);
+  height: 2px;
+  width: 100%;
+}
+header.header-area .cozmiq-container {
+  position: relative;
+  overflow: hidden;
+}
+header.header-area .cozmiq-container .cozmiq-bg-img {
+  position: absolute;
+  inset: 0px;
+  z-index: -1;
+}
+header.header-area .cozmiq-container .cozmiq-bg-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  object-fit: contain;
+}
+header.header-area .cozmiq-container .bg-overlay {
+  position: relative;
+  z-index: -1;
+}
+header.header-area .cozmiq-container .bg-overlay::before {
+  content: "";
+  display: flex;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  top: 0;
+  height: 50px;
+  left: 10%;
+  right: 0;
+  border-radius: 100%;
+  filter: blur(60px);
+  opacity: 1;
+}
+header.header-area .cozmiq-container .header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+header.header-area .cozmiq-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header.header-area .cozmiq-user .cozmiq-user-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+header.header-area .cozmiq-user .cozmiq-user-info h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #a7a4a4;
+  margin-bottom: 0px;
+}
+header.header-area .cozmiq-user .cozmiq-user-info p {
+  font-size: 14px;
+  color: #a7a4a4;
+  margin: 0;
+}
+header.header-area .cozmiq-user .cozmiq-user-info p span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #13873a;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+header.header-area .cozmiq-menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+header.header-area .cozmiq-menu ul li {
+  list-style: none;
+}
+header.header-area .cozmiq-menu ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #a7a4a4;
+  padding: 8px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: inline-block;
+}
+header.header-area .cozmiq-menu ul li a img {
+  width: 21px;
+  height: 21px;
+  object-fit: contain;
+}
+header.header-area .cozmiq-menu ul li span {
+  display: none;
 }
 
 /*# sourceMappingURL=theme-style.css.map */

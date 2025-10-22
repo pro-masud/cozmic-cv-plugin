@@ -156,7 +156,7 @@ body {
 	font-family: var(--cozmiq-fonts-body);
 	font-size: 14px;
 	font-weight: normal;
-	color: var(--cozmiq-black);
+	color: var(--cozmiq-paragrap-color);
 	line-height: 26px;
 	background-color: var(--cozmiq-body-color);
 }
@@ -172,7 +172,7 @@ h4,
 h5,
 h6 {
 	font-family: var(--cozmiq-fonts-heading);
-	color: var(--cozmiq-theme-sec-color);
+	color: var(---cozmiq-heading-color);
 	margin-top: 0px;
 	font-weight: 700;
 	line-height: 1.2;
