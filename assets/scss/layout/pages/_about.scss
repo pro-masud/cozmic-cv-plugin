@@ -1,1 +1,181 @@
 @use '../../utils' as *;
+
+.about-us{
+    & .cozmiq-container{
+        padding: 45px;
+        position: relative;
+
+        &::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1px;
+            height: 100%;
+            background: linear-gradient(
+            90deg,
+            rgba(32, 34, 39, 0) 0%,
+            rgb(32, 34, 39) 26.58%,
+            rgb(32, 34, 39) 50%,
+            rgb(32, 34, 39) 76.13%,
+            rgba(32, 34, 39, 0) 100%
+            );
+             filter: blur(.8px);
+            z-index: -1;
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 1px;
+            height: 100%;
+            background: linear-gradient(
+            90deg,
+            rgba(32, 34, 39, 0) 0%,
+            rgb(32, 34, 39) 26.58%,
+            rgb(32, 34, 39) 50%,
+            rgb(32, 34, 39) 76.13%,
+            rgba(32, 34, 39, 0) 100%
+            );
+             filter: blur(.8px);
+            z-index: -1;
+        }
+
+        & .hi-text{
+            font-size: 18px;
+            color: #e7e7e7;
+        }
+    }
+}
+
+/* ===== Hero ===== */
+.cozmiq-hero{
+  background: var(--cozmiq-bg);
+  color: var(--cozmiq-text);
+  padding: clamp(3rem, 6vw, 6rem) 1.25rem;
+}
+
+.cozmiq-hero__container{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+.cozmiq-hero__pretitle{
+  margin: 0 0 12px;
+  font-size: 18px;
+  color: #e7e7e7;
+  line-height: 23px;
+}
+
+.cozmiq-hero__title{
+  margin: 0 0 16px;
+  font-size: 48px;
+  font-weight: 400;
+  color: #9d9d9d;
+}
+
+.cozmiq-hero__title-gradient{
+  background: linear-gradient(0deg, #a7a4a4 0%, #f2f2f2 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.cozmiq-hero__lead{
+  max-width: 65ch;
+  margin: 0 0 24px;
+  color: var(--cozmiq-muted);
+  font-size: 18px
+}
+
+.cozmiq-hero__actions{
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+
+:root{
+    --bg: #0e0f12;
+    --text: #e7e7ea;
+    --muted: #9aa0a6;
+    --gap: 40px;         
+    --item-w: 96px;      
+    --item-h: 26px;      
+    --speed: 24s;       
+  }
+
+  .clients {
+    display: grid;
+    place-items: center;
+  }
+
+  .clients h2{
+    letter-spacing: .2px;
+    margin: 0 0 22px;
+    text-align: center;
+    color: var(--muted);
+  }
+
+  /* Viewport with fade edges */
+  .clients-viewport{
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+    /* fade on both sides */
+    mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, #000 12.5%, #000 87.5%, rgba(0,0,0,0) 100%);
+    -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, #000 12.5%, #000 87.5%, rgba(0,0,0,0) 100%);
+  }
+
+  /* The track contains two identical rows for a seamless loop */
+  .clients-track{
+    display: flex;
+    gap: var(--gap);
+    width: max-content;
+    align-items: center;
+    animation: slide var(--speed) linear infinite;
+  }
+
+  /* Pause on hover (optional) */
+  .clients-viewport:hover .clients-track{
+    animation-play-state: paused;
+  }
+
+  /* Single list of logos */
+  .logo-list{
+    display: flex;
+    gap: var(--gap);
+    align-items: center;
+  }
+
+  .logo{
+    width: var(--item-w);
+    height: var(--item-h);
+    flex: 0 0 auto;
+    display: grid;
+    place-items: center;
+    opacity: .85;
+    filter: grayscale(1) contrast(1.05);
+    transition: opacity .2s ease;
+  }
+  .logo:hover{ opacity: 1; }
+
+  .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+
+  /* Keyframes: move one full list width to the left */
+  @keyframes slide{
+    from { transform: translateX(0); }
+    to   { transform: translateX(calc(-100% / 2)); } /* half, because track = list A + list B */
+  }
+
+  /* Respect reduced motion */
+  @media (prefers-reduced-motion: reduce){
+    .clients-track{ animation: none; }
+  }

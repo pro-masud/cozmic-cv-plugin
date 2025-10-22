@@ -1,38 +1,20 @@
 <?php if ('layout_one' === $settings['layout_type']) : ?>
-    <header class="header-area" >
-        <div class="cozmiq-border">
-            <div class="cozmiq-mid-border">
-                <div class="cozmiq-bg"></div>
-            </div>
-        </div>
+    <section class="about-us">
         <div class="cozmiq-container">
-            <div class="cozmiq-bg-img">
-                <img src="https://framerusercontent.com/images/AVFyLS6QiN23juDQx8Ih2TFqY.png" alt="">
-            </div>
-            <div class="bg-overlay"></div>
-            <div class="header-wrapper">
-                <div class="cozmiq-user">
-                    <div class="cozmiq-user-img">
-                        <img src="https://framerusercontent.com/images/2oSRzohxW6QjKgtlTllhPoSuGrg.jpg" alt="this is user image">
-                    </div>
-                    <div class="cozmiq-user-info">
-                        <h5>Mike Jonson</h5>
-                        <p><span></span>Available for work</p>
-                    </div>
-                </div>
-                <div class="cozmiq-menu">
-                    <ul>
-                        <li>
-                            <a href="#about"><img src="https://framerusercontent.com/images/NZRTyB2IHRikl3tzpkupcI5nk.svg" alt=""></a>
-                            <span>About</span>
-                        </li>
-                        <li><a href="#skills"><img src="https://framerusercontent.com/images/DKZj8f9stHVQbLBmsG02WQvTvk.svg" alt=""></a></li>
-                        <li><a href="#experience"><img src="https://framerusercontent.com/images/fhcXyT2dBmVTBXHQkQVzOR8UN4.svg" alt=""></a></li>
-                        <li><a href="#education"><img src="https://framerusercontent.com/images/NZRTyB2IHRikl3tzpkupcI5nk.svg" alt=""></a></li>
-                        <li><a href="#portfolio"><img src="https://framerusercontent.com/images/zkOQ9IQxT4OfCSeTYYdeou6VVmo.svg" alt=""></a></li>
-                        <li><a href="#contact"><img src="https://framerusercontent.com/images/tJzUFHAtazIBDgdRDMtelp1gNnk.svg" alt=""></a></li>
-                    </ul>
-                </div>
+            <p class="cozmiq-hero__pretitle" aria-label="greeting">🖐️ Hello, I am</p>
+
+            <h1 id="cozmiq-hero-title" class="cozmiq-hero__title">
+            <span class="cozmiq-hero__title-gradient">UI/UX designer &amp; Front-end developer</span>
+            </h1>
+
+            <p class="cozmiq-hero__lead">
+            For the past decade, I’ve been on a mission to revolutionize design and tech with
+            bold creativity and cutting-edge solutions.
+            </p>
+
+            <div class="cozmiq-actions">
+                <a href="#contact" class="cozmiq-btn cozmiq-btn--primary">Hire me</a>
+                <a href="#about"   class="cozmiq-btn cozmiq-btn--secondary">Discover my journey</a>
             </div>
         </div>
         <div class="cozmiq-border">
@@ -40,5 +22,38 @@
                 <div class="cozmiq-bg"></div>
             </div>
         </div>
-    </header>
+    </section>
+
+
+
+
+<section class="clients" aria-label="Trusted by leading brands">
+    <div class="cozmiq-container">
+        <h2>Trusted by leading brands</h2>
+        <div class="clients-viewport">
+            <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="https://framerusercontent.com/images/Ihk7ijQur2pReIuycNoc7j609Z4.svg" alt="Optimal"></div>
+                <div class="swiper-slide"><img src="https://framerusercontent.com/images/IAqGZH7Rmh6jFC0g7hBQv3iarg.svg" alt="Emblem"></div>
+                <div class="swiper-slide"><img src="https://framerusercontent.com/images/HjJdZ2cAI9GCuYsfSAU9eIJUXA.svg" alt="Visualy"></div>
+                <div class="swiper-slide"><img src="https://framerusercontent.com/images/ivslfq0ImXppXd7J2uC2L8.svg" alt="Iconic"></div>
+                <div class="swiper-slide"><img src="https://framerusercontent.com/images/iQaFswAdc6Ep1WVm3aPPFdr38.svg" alt="WAYLINE"></div>
+                <div class="swiper-slide"><img src="https://framerusercontent.com/images/dLuSZSLZFc2DXCum4S5ZFFZL46w.svg" alt="Orbit"></div>
+
+                <div class="swiper-slide"><img src="https://framerusercontent.com/images/Ihk7ijQur2pReIuycNoc7j609Z4.svg" alt=""></div>
+                <div class="swiper-slide"><img src="https://framerusercontent.com/images/IAqGZH7Rmh6jFC0g7hBQv3iarg.svg" alt=""></div>
+                <div class="swiper-slide"><img src="https://framerusercontent.com/images/HjJdZ2cAI9GCuYsfSAU9eIJUXA.svg" alt=""></div>
+                <div class="swiper-slide"><img src="https://framerusercontent.com/images/ivslfq0ImXppXd7J2uC2L8.svg" alt=""></div>
+                <div class="swiper-slide"><img src="https://framerusercontent.com/images/iQaFswAdc6Ep1WVm3aPPFdr38.svg" alt=""></div>
+                <div class="swiper-slide"><img src="https://framerusercontent.com/images/dLuSZSLZFc2DXCum4S5ZFFZL46w.svg" alt=""></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="cozmiq-border">
+        <div class="cozmiq-mid-border">
+            <div class="cozmiq-bg"></div>
+        </div>
+    </div>
+</section>
 <?php endif; ?>

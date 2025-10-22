@@ -89,6 +89,7 @@ if ( ! class_exists( 'Cozmiq_Elementor_Widget_Init' ) ) {
 			}
 			$elementor_widgets = array(
 				'header',
+				'about-us',
 			);
 
 			$elementor_widgets = apply_filters( 'cozmiq_elementor_widget', $elementor_widgets );

@@ -221,6 +221,13 @@ if (!class_exists('Cozmiq_CV_Init')) {
                     'media' => 'all',
                 ),
 				array(
+                    'handle' => 'swiper-bundle',
+                    'src' => COZMIQ_CV_CSS . '/swiper-bundle.min.css',
+                    'deps' => array(),
+                    'ver' => '6.0.0',
+                    'media' => 'all',
+                ),
+				array(
 					'handle' => 'cozmiq-cv-main-style',
 					'src' => COZMIQ_CV_CSS . '/main-style.css',
 					'deps' => array(),
@@ -262,6 +269,7 @@ if (!class_exists('Cozmiq_CV_Init')) {
 		{
 			// all js files
 			wp_enqueue_script( 'bootstrap', COZMIQ_CV_JS . '/bootstrap.bundle.min.js', array('jquery'), '5.3.2', true );
+			wp_enqueue_script( 'swiper-bundle', COZMIQ_CV_JS . '/swiper-bundle.min.js', array('jquery'), time(), true );
             wp_enqueue_script( 'wow', COZMIQ_CV_JS . '/wow.min.js', array('jquery'), '4.0.1', true );
             wp_enqueue_script( 'cozmiq-cv-main-script', COZMIQ_CV_JS . '/main.js', array('jquery'), time(), true );
 		}
