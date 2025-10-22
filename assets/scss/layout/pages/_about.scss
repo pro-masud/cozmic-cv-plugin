@@ -96,54 +96,80 @@
   flex-wrap: wrap;
 }
 
-
-:root{
-    --bg: #0e0f12;
-    --text: #e7e7ea;
-    --muted: #9aa0a6;
-    --gap: 40px;         
-    --item-w: 96px;      
-    --item-h: 26px;      
-    --speed: 24s;       
-  }
-
   .clients {
     display: grid;
     place-items: center;
-  }
 
-  .clients h2{
+    & .cozmiq-container{
+        position: relative;
+        padding: 30px 0;
+
+        &::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1px;
+            height: 100%;
+            background: linear-gradient(
+            90deg,
+            rgba(32, 34, 39, 0) 0%,
+            rgb(32, 34, 39) 26.58%,
+            rgb(32, 34, 39) 50%,
+            rgb(32, 34, 39) 76.13%,
+            rgba(32, 34, 39, 0) 100%
+            );
+             filter: blur(.8px);
+            z-index: -1;
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 1px;
+            height: 100%;
+            background: linear-gradient(
+            90deg,
+            rgba(32, 34, 39, 0) 0%,
+            rgb(32, 34, 39) 26.58%,
+            rgb(32, 34, 39) 50%,
+            rgb(32, 34, 39) 76.13%,
+            rgba(32, 34, 39, 0) 100%
+            );
+             filter: blur(.8px);
+            z-index: -1;
+        }
+    }
+  }
+  .clients p{
     letter-spacing: .2px;
     margin: 0 0 22px;
     text-align: center;
-    color: var(--muted);
+    font-size: 16px;
+    color: #a7a4a4;
   }
 
-  /* Viewport with fade edges */
   .clients-viewport{
     width: 100%;
     overflow: hidden;
     padding: 10px 0;
-    /* fade on both sides */
     mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, #000 12.5%, #000 87.5%, rgba(0,0,0,0) 100%);
     -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, #000 12.5%, #000 87.5%, rgba(0,0,0,0) 100%);
   }
 
-  /* The track contains two identical rows for a seamless loop */
   .clients-track{
     display: flex;
     gap: var(--gap);
     width: max-content;
     align-items: center;
-    animation: slide var(--speed) linear infinite;
   }
 
-  /* Pause on hover (optional) */
+
   .clients-viewport:hover .clients-track{
     animation-play-state: paused;
   }
 
-  /* Single list of logos */
   .logo-list{
     display: flex;
     gap: var(--gap);
@@ -167,15 +193,4 @@
     height: 100%;
     object-fit: contain;
     display: block;
-  }
-
-  /* Keyframes: move one full list width to the left */
-  @keyframes slide{
-    from { transform: translateX(0); }
-    to   { transform: translateX(calc(-100% / 2)); } /* half, because track = list A + list B */
-  }
-
-  /* Respect reduced motion */
-  @media (prefers-reduced-motion: reduce){
-    .clients-track{ animation: none; }
   }

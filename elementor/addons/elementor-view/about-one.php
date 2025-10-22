@@ -29,24 +29,24 @@
 
 <section class="clients" aria-label="Trusted by leading brands">
     <div class="cozmiq-container">
-        <h2>Trusted by leading brands</h2>
+        <p>Trusted by leading brands</p>
         <div class="clients-viewport">
             <div class="swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="https://framerusercontent.com/images/Ihk7ijQur2pReIuycNoc7j609Z4.svg" alt="Optimal"></div>
-                <div class="swiper-slide"><img src="https://framerusercontent.com/images/IAqGZH7Rmh6jFC0g7hBQv3iarg.svg" alt="Emblem"></div>
-                <div class="swiper-slide"><img src="https://framerusercontent.com/images/HjJdZ2cAI9GCuYsfSAU9eIJUXA.svg" alt="Visualy"></div>
-                <div class="swiper-slide"><img src="https://framerusercontent.com/images/ivslfq0ImXppXd7J2uC2L8.svg" alt="Iconic"></div>
-                <div class="swiper-slide"><img src="https://framerusercontent.com/images/iQaFswAdc6Ep1WVm3aPPFdr38.svg" alt="WAYLINE"></div>
-                <div class="swiper-slide"><img src="https://framerusercontent.com/images/dLuSZSLZFc2DXCum4S5ZFFZL46w.svg" alt="Orbit"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="https://framerusercontent.com/images/Ihk7ijQur2pReIuycNoc7j609Z4.svg" alt="Optimal"></div>
+                    <div class="swiper-slide"><img src="https://framerusercontent.com/images/IAqGZH7Rmh6jFC0g7hBQv3iarg.svg" alt="Emblem"></div>
+                    <div class="swiper-slide"><img src="https://framerusercontent.com/images/HjJdZ2cAI9GCuYsfSAU9eIJUXA.svg" alt="Visualy"></div>
+                    <div class="swiper-slide"><img src="https://framerusercontent.com/images/ivslfq0ImXppXd7J2uC2L8.svg" alt="Iconic"></div>
+                    <div class="swiper-slide"><img src="https://framerusercontent.com/images/iQaFswAdc6Ep1WVm3aPPFdr38.svg" alt="WAYLINE"></div>
+                    <div class="swiper-slide"><img src="https://framerusercontent.com/images/dLuSZSLZFc2DXCum4S5ZFFZL46w.svg" alt="Orbit"></div>
 
-                <div class="swiper-slide"><img src="https://framerusercontent.com/images/Ihk7ijQur2pReIuycNoc7j609Z4.svg" alt=""></div>
-                <div class="swiper-slide"><img src="https://framerusercontent.com/images/IAqGZH7Rmh6jFC0g7hBQv3iarg.svg" alt=""></div>
-                <div class="swiper-slide"><img src="https://framerusercontent.com/images/HjJdZ2cAI9GCuYsfSAU9eIJUXA.svg" alt=""></div>
-                <div class="swiper-slide"><img src="https://framerusercontent.com/images/ivslfq0ImXppXd7J2uC2L8.svg" alt=""></div>
-                <div class="swiper-slide"><img src="https://framerusercontent.com/images/iQaFswAdc6Ep1WVm3aPPFdr38.svg" alt=""></div>
-                <div class="swiper-slide"><img src="https://framerusercontent.com/images/dLuSZSLZFc2DXCum4S5ZFFZL46w.svg" alt=""></div>
-            </div>
+                    <div class="swiper-slide"><img src="https://framerusercontent.com/images/Ihk7ijQur2pReIuycNoc7j609Z4.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://framerusercontent.com/images/IAqGZH7Rmh6jFC0g7hBQv3iarg.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://framerusercontent.com/images/HjJdZ2cAI9GCuYsfSAU9eIJUXA.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://framerusercontent.com/images/ivslfq0ImXppXd7J2uC2L8.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://framerusercontent.com/images/iQaFswAdc6Ep1WVm3aPPFdr38.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://framerusercontent.com/images/dLuSZSLZFc2DXCum4S5ZFFZL46w.svg" alt=""></div>
+                </div>
             </div>
         </div>
     </div>
