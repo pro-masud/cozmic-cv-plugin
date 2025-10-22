@@ -123,18 +123,18 @@
 /*----------------------------------------*/
 /*  1.1 Theme Default
 /*----------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 :root {
   --cozmiq-primary-color: #DFDFDF;
-  --cozmiq-secnadry-sec-color: #8D8A8B;
+  --cozmiq-sec-color: #8D8A8B;
   --cozmiq-black: black;
   --cozmiq-white: white;
   --cozmiq-paragrap-color: #f6f6f6;
 }
 
 :root {
-  --exdos-fonts-poppins: "Poppins", sans-serif;
-  --exdos-fonts-muli: "Muli", sans-serif;
+  --cozmiq-fonts-heading: "Outfit", sans-serif;
+  --cozmiq-fonts-body: "PT Serif", serif;
 }
 
 * {
@@ -147,10 +147,10 @@
 	typography css start 
 ---------------------------------*/
 body {
-  font-family: var(--exdos-fonts-poppins);
+  font-family: var(--cozmiq-fonts-poppins);
   font-size: 14px;
   font-weight: normal;
-  color: var(--exdos-black);
+  color: var(--cozmiq-black);
   line-height: 26px;
 }
 
@@ -164,8 +164,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--exdos-fonts-muli);
-  color: var(--exdos-theme-sec-color);
+  font-family: var(--cozmiq-fonts-body);
+  color: var(--cozmiq-theme-sec-color);
   margin-top: 0px;
   font-weight: 700;
   line-height: 1.2;
@@ -201,10 +201,10 @@ ul {
 }
 
 p {
-  font-family: var(--exdos-ff-p);
+  font-family: var(--cozmiq-ff-p);
   font-size: 14px;
   font-weight: 400;
-  color: var(--exdos-text-body);
+  color: var(--cozmiq-text-body);
   margin-bottom: 15px;
   line-height: 26px;
 }
@@ -264,7 +264,7 @@ textarea {
   width: 100%;
   line-height: 56px;
   font-size: 14px;
-  color: var(--exdos-common-black);
+  color: var(--cozmiq-common-black);
   padding-left: 26px;
   padding-right: 26px;
   border: 1px solid #E0E2E3;
@@ -276,7 +276,7 @@ input[type=number]:focus,
 input[type=password]:focus,
 input[type=url]:focus,
 textarea:focus {
-  border-color: var(--exdos-common-black);
+  border-color: var(--cozmiq-common-black);
 }
 input[type=text]:focus::placeholder,
 input[type=email]:focus::placeholder,
@@ -295,25 +295,25 @@ textarea {
 }
 
 *::-moz-selection {
-  background: var(--exdos-common-black);
-  color: var(--exdos-common-white);
+  background: var(--cozmiq-common-black);
+  color: var(--cozmiq-common-white);
   text-shadow: none;
 }
 
 *::selection {
-  background: var(--exdos-common-black);
-  color: var(--exdos-common-white);
+  background: var(--cozmiq-common-black);
+  color: var(--cozmiq-common-white);
   text-shadow: none;
 }
 
 *::-moz-placeholder {
-  color: var(--exdos-common-black);
+  color: var(--cozmiq-common-black);
   font-size: 14px;
   opacity: 1;
 }
 
 *::placeholder {
-  color: var(--exdos-common-black);
+  color: var(--cozmiq-common-black);
   font-size: 14px;
   opacity: 1;
 }
