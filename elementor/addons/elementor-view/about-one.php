@@ -1,20 +1,12 @@
 <?php if ('layout_one' === $settings['layout_type']) : ?>
     <section class="about-us">
         <div class="cozmiq-container">
-            <p class="cozmiq-hero__pretitle" aria-label="greeting">🖐️ Hello, I am</p>
-
-            <h1 id="cozmiq-hero-title" class="cozmiq-hero__title">
-            <span class="cozmiq-hero__title-gradient">UI/UX designer &amp; Front-end developer</span>
-            </h1>
-
-            <p class="cozmiq-hero__lead">
-            For the past decade, I’ve been on a mission to revolutionize design and tech with
-            bold creativity and cutting-edge solutions.
-            </p>
-
+            <p class="cozmiq-hero__pretitle wow animate__animated animate__fadeInDown" aria-label="greeting" data-wow-duration="700ms" data-wow-offset="80"><span class="hand-animation" aria-hidden="true">🖐️</span> Hello, I am</p>
+            <h1 id="cozmiq-hero-title" class="cozmiq-hero__title wow animate__animated animate__fadeInUp" data-wow-delay="0.2s" data-wow-duration="800ms" data-wow-offset="80"><span class="cozmiq-hero__title-gradient">UI/UX designer &amp; Front-end developer</span></h1>
+            <p class="cozmiq-hero__lead wow animate__animated animate__fadeInUp" data-wow-delay="0.45s" data-wow-duration="800ms" data-wow-offset="80">For the past decade, I’ve been on a mission to revolutionize design and tech with bold creativity and cutting-edge solutions.</p>
             <div class="cozmiq-actions">
-                <a href="#contact" class="cozmiq-btn cozmiq-btn--primary">Hire me</a>
-                <a href="#about"   class="cozmiq-btn cozmiq-btn--secondary">Discover my journey</a>
+            <a href="#contact" class="cozmiq-btn cozmiq-btn--primary wow animate__animated animate__zoomIn" data-wow-delay="0.65s" data-wow-duration="700ms" data-wow-offset="80">Hire me</a>
+            <a href="#about" class="cozmiq-btn cozmiq-btn--secondary wow animate__animated animate__zoomIn" data-wow-delay="0.8s" data-wow-duration="700ms" data-wow-offset="80">Discover my journey</a>
             </div>
         </div>
         <div class="cozmiq-border">
@@ -24,37 +16,39 @@
         </div>
     </section>
 
-    <section class="clients" aria-label="Trusted by leading brands">
-        <div class="cozmiq-container">
-            <p>Trusted by leading brands</p>
-            <div class="clients-viewport">
-                <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="https://framerusercontent.com/images/Ihk7ijQur2pReIuycNoc7j609Z4.svg" alt="Optimal"></div>
-                        <div class="swiper-slide"><img src="https://framerusercontent.com/images/IAqGZH7Rmh6jFC0g7hBQv3iarg.svg" alt="Emblem"></div>
-                        <div class="swiper-slide"><img src="https://framerusercontent.com/images/HjJdZ2cAI9GCuYsfSAU9eIJUXA.svg" alt="Visualy"></div>
-                        <div class="swiper-slide"><img src="https://framerusercontent.com/images/ivslfq0ImXppXd7J2uC2L8.svg" alt="Iconic"></div>
-                        <div class="swiper-slide"><img src="https://framerusercontent.com/images/iQaFswAdc6Ep1WVm3aPPFdr38.svg" alt="WAYLINE"></div>
-                        <div class="swiper-slide"><img src="https://framerusercontent.com/images/dLuSZSLZFc2DXCum4S5ZFFZL46w.svg" alt="Orbit"></div>
 
-                        <div class="swiper-slide"><img src="https://framerusercontent.com/images/Ihk7ijQur2pReIuycNoc7j609Z4.svg" alt=""></div>
-                        <div class="swiper-slide"><img src="https://framerusercontent.com/images/IAqGZH7Rmh6jFC0g7hBQv3iarg.svg" alt=""></div>
-                        <div class="swiper-slide"><img src="https://framerusercontent.com/images/HjJdZ2cAI9GCuYsfSAU9eIJUXA.svg" alt=""></div>
-                        <div class="swiper-slide"><img src="https://framerusercontent.com/images/ivslfq0ImXppXd7J2uC2L8.svg" alt=""></div>
-                        <div class="swiper-slide"><img src="https://framerusercontent.com/images/iQaFswAdc6Ep1WVm3aPPFdr38.svg" alt=""></div>
-                        <div class="swiper-slide"><img src="https://framerusercontent.com/images/dLuSZSLZFc2DXCum4S5ZFFZL46w.svg" alt=""></div>
-                    </div>
+    <section class="clients">
+        <div class="cozmiq-container">
+            <p class="wow animate__animated animate__fadeInUp" data-wow-delay="0.1s" data-wow-duration="600ms" data-wow-offset="60">Trusted by leading brands</p>
+            <div class="clients-viewport wow animate__animated animate__fadeIn" data-wow-delay="0.2s" data-wow-duration="700ms" data-wow-offset="60">
+            <div class="swiper wow animate__animated animate__fadeInUp" data-wow-delay="0.25s" data-wow-duration="700ms" data-wow-offset="60">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"><img class="wow animate__animated animate__zoomIn" data-wow-delay="0.30s" data-wow-duration="650ms" data-wow-offset="60" src="https://framerusercontent.com/images/Ihk7ijQur2pReIuycNoc7j609Z4.svg" alt="Optimal"></div>
+                <div class="swiper-slide"><img class="wow animate__animated animate__zoomIn" data-wow-delay="0.35s" data-wow-duration="650ms" data-wow-offset="60" src="https://framerusercontent.com/images/IAqGZH7Rmh6jFC0g7hBQv3iarg.svg" alt="Emblem"></div>
+                <div class="swiper-slide"><img class="wow animate__animated animate__zoomIn" data-wow-delay="0.40s" data-wow-duration="650ms" data-wow-offset="60" src="https://framerusercontent.com/images/HjJdZ2cAI9GCuYsfSAU9eIJUXA.svg" alt="Visualy"></div>
+                <div class="swiper-slide"><img class="wow animate__animated animate__zoomIn" data-wow-delay="0.45s" data-wow-duration="650ms" data-wow-offset="60" src="https://framerusercontent.com/images/ivslfq0ImXppXd7J2uC2L8.svg" alt="Iconic"></div>
+                <div class="swiper-slide"><img class="wow animate__animated animate__zoomIn" data-wow-delay="0.50s" data-wow-duration="650ms" data-wow-offset="60" src="https://framerusercontent.com/images/iQaFswAdc6Ep1WVm3aPPFdr38.svg" alt="WAYLINE"></div>
+                <div class="swiper-slide"><img class="wow animate__animated animate__zoomIn" data-wow-delay="0.55s" data-wow-duration="650ms" data-wow-offset="60" src="https://framerusercontent.com/images/dLuSZSLZFc2DXCum4S5ZFFZL46w.svg" alt="Orbit"></div>
+
+                <div class="swiper-slide"><img class="wow animate__animated animate__zoomIn" data-wow-delay="0.60s" data-wow-duration="650ms" data-wow-offset="60" src="https://framerusercontent.com/images/Ihk7ijQur2pReIuycNoc7j609Z4.svg" alt=""></div>
+                <div class="swiper-slide"><img class="wow animate__animated animate__zoomIn" data-wow-delay="0.65s" data-wow-duration="650ms" data-wow-offset="60" src="https://framerusercontent.com/images/IAqGZH7Rmh6jFC0g7hBQv3iarg.svg" alt=""></div>
+                <div class="swiper-slide"><img class="wow animate__animated animate__zoomIn" data-wow-delay="0.70s" data-wow-duration="650ms" data-wow-offset="60" src="https://framerusercontent.com/images/HjJdZ2cAI9GCuYsfSAU9eIJUXA.svg" alt=""></div>
+                <div class="swiper-slide"><img class="wow animate__animated animate__zoomIn" data-wow-delay="0.75s" data-wow-duration="650ms" data-wow-offset="60" src="https://framerusercontent.com/images/ivslfq0ImXppXd7J2uC2L8.svg" alt=""></div>
+                <div class="swiper-slide"><img class="wow animate__animated animate__zoomIn" data-wow-delay="0.80s" data-wow-duration="650ms" data-wow-offset="60" src="https://framerusercontent.com/images/iQaFswAdc6Ep1WVm3aPPFdr38.svg" alt=""></div>
+                <div class="swiper-slide"><img class="wow animate__animated animate__zoomIn" data-wow-delay="0.85s" data-wow-duration="650ms" data-wow-offset="60" src="https://framerusercontent.com/images/dLuSZSLZFc2DXCum4S5ZFFZL46w.svg" alt=""></div>
                 </div>
             </div>
+            </div>
         </div>
+    </section>
+
+
+    <section class="cozmiq-about">
         <div class="cozmiq-border">
             <div class="cozmiq-mid-border">
                 <div class="cozmiq-bg"></div>
             </div>
         </div>
-    </section>
-
-    <section class="cozmiq-about">
         <div class="cozmiq-container text-center">
             <div class="cozmiq-avatar-wrap" >
                 <div class="cozmiq-avatar" style="background-image: url('https://framerusercontent.com/images/7DerjMvwr8DWw88AGHJUBRYng4.png');">
@@ -145,6 +139,11 @@
             <div class="project-content">
                 <h2 class="project-title">In a previous life</h2>
                 <p class="project-desc">14 years in web development and design, creating impactful solutions for top brands.</p>
+            </div>
+        </div>
+        <div class="cozmiq-border">
+            <div class="cozmiq-mid-border">
+                <div class="cozmiq-bg"></div>
             </div>
         </div>
     </section>
@@ -280,6 +279,11 @@
     </section>
 
     <section class="cozmiq-last-work">
+        <div class="cozmiq-border">
+            <div class="cozmiq-mid-border">
+                <div class="cozmiq-bg"></div>
+            </div>
+        </div>
         <div class="cozmiq-container">
             <div class="cozmiq-last-work-content">
                 <div class="last-work-bg" style="background-image: url(https://framerusercontent.com/images/Jcy40i3RouKciijCCfOcj3Ox53M.png);"></div>
@@ -294,5 +298,29 @@
             </div>
         </div>
     </section>
-    
+    <section class="cozmiq-about">
+        <div class="cozmiq-border">
+            <div class="cozmiq-mid-border">
+                <div class="cozmiq-bg"></div>
+            </div>
+        </div>
+        <div class="cozmiq-container">
+            <div class="project-content">
+                <h2 class="project-title">See what clients think of <br> my work</h2>
+                <div class="project-clients mt-30">
+                    <div class="project-client-image">
+                        <img src="https://framerusercontent.com/images/ra2ZoGIRC1eSIddiA5m1D51pWY.jpg" alt="Portrait of Sarah Williams">
+                        <img src="https://framerusercontent.com/images/KqkuAhxVFzSMPjuZ14Wd69kX7s.jpg" alt="Portrait of Sarah Williams">
+                        <img src="https://framerusercontent.com/images/6IqOHTSiaoL5eptUTMIjKLKjPs.jpg" alt="Portrait of Sarah Williams">
+                        <img src="https://framerusercontent.com/images/Q6AqR4MFokdSIIozRSCyfXUUOk.jpg" alt="Portrait of Sarah Williams">
+                        <img src="https://framerusercontent.com/images/uS6TvmQHATxjwNpSH4dzuseIsI8.jpg" alt="Portrait of Sarah Williams">
+                    </div>
+                    <div class="project-content">
+                        <p class="project-desc">Trusted by industry leaders</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
 <?php endif; ?>

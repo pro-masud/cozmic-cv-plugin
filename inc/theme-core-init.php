@@ -228,6 +228,13 @@ if (!class_exists('Cozmiq_CV_Init')) {
                     'media' => 'all',
                 ),
 				array(
+                    'handle' => 'animate-css',
+                    'src' => COZMIQ_CV_CSS . '/animate.min.css',
+                    'deps' => array(),
+                    'ver' => '6.0.0',
+                    'media' => 'all',
+                ),
+				array(
 					'handle' => 'cozmiq-cv-main-style',
 					'src' => COZMIQ_CV_CSS . '/main-style.css',
 					'deps' => array(),

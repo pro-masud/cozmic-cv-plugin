@@ -3643,6 +3643,49 @@ textarea {
   padding-right: 100px;
 }
 
+.hand-animation {
+  display: inline-block;
+  transform-origin: 70% 70%;
+  animation: hand-wave 2.2s ease-in-out infinite;
+}
+
+@keyframes hand-wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(12deg);
+  }
+  40% {
+    transform: rotate(-6deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(-4deg);
+  }
+  70% {
+    transform: rotate(6deg);
+  }
+  80% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hand-animation {
+    animation: none;
+  }
+}
 header.header-area {
   padding: 50px 0px 0;
 }
@@ -3673,7 +3716,7 @@ header.header-area .cozmiq-container .bg-overlay::before {
   width: 80%;
   background: rgba(255, 255, 255, 0.4);
   position: absolute;
-  top: 0;
+  top: -50px;
   height: 50px;
   left: 10%;
   right: 0;
@@ -4394,6 +4437,46 @@ header.header-area .cozmiq-menu ul li span {
 }
 .cozmiq-last-work .cozmiq-last-work-content .last-work-info .cozmiq-submission-form .cozmiq-btn.cozmiq-btn--primary {
   padding: 14px 25px;
+}
+
+.project-clients {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.project-clients .project-client-image {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+  width: 30%;
+}
+.project-clients .project-client-image img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+}
+.project-clients .project-client-image img:nth-child(2) {
+  left: 30px;
+  z-index: 2;
+}
+.project-clients .project-client-image img:nth-child(3) {
+  left: 60px;
+  z-index: 3;
+}
+.project-clients .project-client-image img:nth-child(4) {
+  left: 90px;
+  z-index: 4;
+}
+.project-clients .project-client-image img:nth-child(5) {
+  left: 120px;
+  z-index: 5;
+}
+.project-clients .project-desc {
+  margin: 0;
 }
 
 /*# sourceMappingURL=theme-style.css.map */

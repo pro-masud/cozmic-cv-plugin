@@ -3,6 +3,31 @@
 
 // Cozmiq header Started
 
+ .hand-animation {
+    display: inline-block;
+    transform-origin: 70% 70%; 
+    animation: hand-wave 2.2s ease-in-out infinite;
+  }
+
+  @keyframes hand-wave {
+    0%   { transform: rotate(0deg); }
+    10%  { transform: rotate(14deg); }
+    20%  { transform: rotate(-8deg); }
+    30%  { transform: rotate(12deg); }
+    40%  { transform: rotate(-6deg); }
+    50%  { transform: rotate(10deg); }
+    60%  { transform: rotate(-4deg); }
+    70%  { transform: rotate(6deg); }
+    80%  { transform: rotate(-2deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hand-animation {
+      animation: none;
+    }
+  }
+
 header.header-area {
     padding: 50px 0px 0;
 
@@ -33,7 +58,7 @@ header.header-area {
                 width: 80%;
                 background: rgba(255, 255, 255, 0.4);
                 position: absolute;
-                top: 0;
+                top: -50px;
                 height: 50px;
                 left: calc(50.00000000000002% - 80% / 2);
                 right: 0;
