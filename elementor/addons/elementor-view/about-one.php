@@ -346,5 +346,69 @@
     </section>
 
 
+
+    <footer class="cozmiq-footer" aria-label="Site Footer">
+        <div class="cozmiq-border">
+            <div class="cozmiq-mid-border">
+                <div class="cozmiq-bg"></div>
+            </div>
+        </div>
+        <div class="cozmiq-container footer-hidden">
+            <div class="footer-bg" style="background-image: url(https://framerusercontent.com/images/rh55RiZWInd4kItpcuP2yjdKsqA.png);"></div>
+            <div class="cozmiq-footer-content">
+                <div class="cozmiq-top">
+                    <a href="#home" class="cozmiq-topbtn" aria-label="Back to top">
+                        <img src="https://framerusercontent.com/images/2oSRzohxW6QjKgtlTllhPoSuGrg.jpg" alt="Mike Jonson">
+                    </a>
+                </div>
+
+                <h3 class="cozmiq-name">Mike Jonson</h3>
+                <p class="cozmiq-tag">UI/UX designer &amp; Front end developer</p>
+
+                <div class="cozmiq-footer-contact" role="group" aria-label="Contact Methods">
+                    <div class="cozmiq-ci">
+                        <span class="cozmiq-ci__label">Call me on:</span>
+                        <span class="cozmiq-ci__value"><a href="tel:+14695372410">+(469) 537-2410</a></span>
+                    </div>
+                    <span class="cozmiq-vrule" aria-hidden="true"></span>
+                    <div class="cozmiq-ci">
+                        <span class="cozmiq-ci__label">Email me at:</span>
+                        <span class="cozmiq-ci__value"><a href="mailto:example@gmail.com">example@gmail.com</a></span>
+                    </div>
+                    <span class="cozmiq-vrule" aria-hidden="true"></span>
+                    <div class="cozmiq-ci">
+                        <span class="cozmiq-ci__label">Follow me on:</span>
+                        <div class="cozmiq-socials" role="group" aria-label="Social links">
+                            <a class="cozmiq-sbtn" aria-label="Facebook" href="https://www.facebook.com/" target="_blank" rel="noopener">
+                                <!-- Facebook -->
+                                <svg viewBox="0 0 320 512" aria-hidden="true"><path d="M279.1 288l14.2-92.7h-88.9v-60.1c0-25.4 12.4-50.1 52.2-50.1H296V6.3S259.5 0 225.4 0c-73.2 0-121 44.4-121 124.7v70.6H22.9V288h81.6v224h100.2V288z"/></svg>
+                            </a>
+                            <a class="cozmiq-sbtn" aria-label="LinkedIn" href="https://www.linkedin.com/" target="_blank" rel="noopener">
+                                <!-- LinkedIn -->
+                                <svg viewBox="0 0 448 512" aria-hidden="true"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8A53.79 53.79 0 0 1 53.79 0C83.5 0 108 24.6 108 54.3c0 29.7-24.5 53.8-54.21 53.8zM447.9 448h-92.6V302.4c0-34.7-.7-79.3-48.3-79.3-48.3 0-55.7 37.7-55.7 76.6V448h-92.7V148.9h88.9v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg>
+                            </a>
+                            <a class="cozmiq-sbtn" aria-label="YouTube" href="https://www.youtube.com/" target="_blank" rel="noopener">
+                                <!-- YouTube -->
+                                <svg viewBox="0 0 576 512" aria-hidden="true"><path d="M549.7 124.1a68.3 68.3 0 0 0-48.1-48.2C458.8 64 288 64 288 64s-170.8 0-213.6 11.9a68.3 68.3 0 0 0-48.1 48.2C14.4 167 14.4 256 14.4 256s0 89 11.9 131.9a68.3 68.3 0 0 0 48.1 48.2C117.2 448 288 448 288 448s170.8 0 213.6-11.9a68.3 68.3 0 0 0 48.1-48.2c11.9-42.9 11.9-131.9 11.9-131.9s0-89-11.9-131.9zM232 338.5v-165l142.7 82.5L232 338.5z"/></svg>
+                            </a>
+                            <a class="cozmiq-sbtn" aria-label="Instagram" href="https://www.instagram.com/" target="_blank" rel="noopener">
+                                <!-- Instagram -->
+                                <svg viewBox="0 0 448 512" aria-hidden="true"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.2 0-74.7-33.4-74.7-74.7s33.4-74.7 74.7-74.7 74.7 33.4 74.7 74.7-33.4 74.7-74.7 74.7zm146.4-194.3c0 14.9-12.1 27-27 27-14.9 0-27-12.1-27-27 0-14.9 12.1-27 27-27 14.9 0 27 12.1 27 27zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-94-26.3-26.3-58.1-34.5-94-36.2-37-2.1-148-2.1-185 0-35.9 1.7-67.7 9.9-94 36.2-26.3 26.3-34.5 58.1-36.2 94-2.1 37-2.1 148 0 185 1.7 35.9 9.9 67.7 36.2 94 26.3 26.3 58.1 34.5 94 36.2 37 2.1 148 2.1 185 0 35.9-1.7 67.7-9.9 94-36.2 26.3-26.3 34.5-58.1 36.2-94 2.1-37 2.1-148 0-185z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cozmiq-bigdiv" aria-hidden="true"></div>
+
+                <p class="cozmiq-bottom">
+                    Designed by <a href="https://www.webestica.com/" target="_blank" rel="noopener">Webestica</a>,
+                    Powered by <a href="https://framer.com/" target="_blank" rel="noopener">Framer</a>
+                </p>
+            </div>
+            <span class="cozmiq-blur" aria-hidden="true"></span>
+        </div>
+       
+    </footer>
     
 <?php endif; ?>
