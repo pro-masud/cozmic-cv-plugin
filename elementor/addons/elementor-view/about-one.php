@@ -46,94 +46,68 @@
     <section class="cozmiq-about">
         <div class="cozmiq-border">
             <div class="cozmiq-mid-border">
-                <div class="cozmiq-bg"></div>
+            <div class="cozmiq-bg"></div>
             </div>
         </div>
-        <div class="cozmiq-container text-center">
-            <div class="cozmiq-avatar-wrap" >
-                <div class="cozmiq-avatar" style="background-image: url('https://framerusercontent.com/images/7DerjMvwr8DWw88AGHJUBRYng4.png');">
-                    <img src="https://framerusercontent.com/images/2oSRzohxW6QjKgtlTllhPoSuGrg.jpg" alt="Portrait of Mike Jonson">
-                </div>
 
-                <!-- <div class="cozmiq-exp">
-                    <svg viewBox="0 0 86 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                    <path d="M4 44C28 20 58 18 82 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                    <path d="M73 5l10 1-6 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <span>14+ years of experience</span>
-                </div> -->
+        <div class="cozmiq-container text-center">
+            <div class="cozmiq-avatar-wrap">
+            <div class="cozmiq-avatar wow animate__animated animate__zoomIn" data-wow-delay="0.1s" data-wow-duration="800ms" data-wow-offset="80" style="background-image: url('https://framerusercontent.com/images/7DerjMvwr8DWw88AGHJUBRYng4.png');">
+                <img class="wow animate__animated animate__fadeIn" data-wow-delay="0.2s" data-wow-duration="800ms" data-wow-offset="80" src="https://framerusercontent.com/images/2oSRzohxW6QjKgtlTllhPoSuGrg.jpg" alt="Portrait of Mike Jonson">
+            </div>
+            <!-- experience badge intentionally left without animation (commented out) -->
             </div>
 
             <div class="cozmiq-intro">
-                <h2 class="cozmiq-heading">What makes me different?</h2>
-                <p class="cozmiq-lead">I blend design and functionality to create impactful solutions, turning ideas into reality and delivering exceptional user experiences.</p>
+            <h2 class="cozmiq-heading wow animate__animated animate__fadeInUp" data-wow-delay="0.25s" data-wow-duration="700ms" data-wow-offset="80">What makes me different?</h2>
+            <p class="cozmiq-lead wow animate__animated animate__fadeInUp" data-wow-delay="0.35s" data-wow-duration="800ms" data-wow-offset="80">I blend design and functionality to create impactful solutions, turning ideas into reality and delivering exceptional user experiences.</p>
 
-                <div class="cozmiq-btn-row" role="group" aria-label="Primary actions">
-                    <a class="cozmiq-btn cozmiq-btn--primary" href="#" download>
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
-                            <path d="M12 3v12m0 0l-4-4m4 4l4-4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M5 21h14" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                        Download resume
-                    </a>
-                    <a class="cozmiq-btn cozmiq-btn--ghost" href="#work">Browse my work</a>
-                </div>
+            <div class="cozmiq-btn-row" role="group" aria-label="Primary actions">
+                <a class="cozmiq-btn cozmiq-btn--primary wow animate__animated animate__zoomIn" data-wow-delay="0.45s" data-wow-duration="650ms" data-wow-offset="80" href="#" download>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M12 3v12m0 0l-4-4m4 4l4-4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 21h14" stroke-width="2" stroke-linecap="round"/></svg>
+                Download resume
+                </a>
+                <a class="cozmiq-btn cozmiq-btn--ghost wow animate__animated animate__zoomIn" data-wow-delay="0.55s" data-wow-duration="650ms" data-wow-offset="80" href="#work">Browse my work</a>
+            </div>
             </div>
 
             <!-- Cards -->
             <div class="cozmiq-cards">
-                <article class="cozmiq-card">
-                    <h5 class="cozmiq-card__title">Front-end development</h5>
-                    <p class="cozmiq-card__text">Expert in HTML, CSS, React, and Vue, JavaScript, crafting responsive, high-performance websites.</p>
-                    <div class="cozmiq-badges" aria-label="Technologies">
-                        <span class="cozmiq-badge">
-                            <img src="https://framerusercontent.com/images/n5CEwhgZCi8YMpBM8eLbsTfqWYc.svg" alt="">
-                        </span>
-                        <span class="cozmiq-badge">
-                            <img src="https://framerusercontent.com/images/b9g2Dj1jffkEPoX1UQhB7lHYhT8.svg" alt="">
-                        </span>
-                        <span class="cozmiq-badge">
-                            <img src="https://framerusercontent.com/images/xGjtb1xCK7oUQTIaKdXOpr232Y.svg" alt="">
-                        </span>
-                        <span class="cozmiq-badge">
-                            <img src="https://framerusercontent.com/images/6SgnWajlcu6YoiI7sEs659RD4Y.svg" alt="">
-                        </span>
-                        <span class="cozmiq-badge">
-                            <img src="https://framerusercontent.com/images/okD1Nqfmn6r30BLjXdQ0K7fdM.svg" alt="">
-                        </span>
-                    </div>
-                    <span class="cozmiq-card__blur" aria-hidden="true"></span>
-                </article>
-                <article class="cozmiq-card">
-                    <h5 class="cozmiq-card__title">UI/UX design</h5>
-                    <p class="cozmiq-card__text">I ensure every detail enhances the user <br> experience while aligning with your brand's vision.</p>
-                    <div class="cozmiq-badges" aria-label="Tools">
-                        <span class="cozmiq-badge">
-                            <img src="https://framerusercontent.com/images/kXP9RlvjhwyQRQS350pRwn2opC8.svg" alt="">
-                        </span>
-                        <span class="cozmiq-badge">
-                            <img src="https://framerusercontent.com/images/USSjdfchrFdv1GByrJ3zBNfAGw.svg" alt="">
-                        </span>
-                        <span class="cozmiq-badge">
-                            <img src="https://framerusercontent.com/images/I4wzR6mmBX4Xflsh36XXaewABc.svg" alt="">
-                        </span>
-                        <span class="cozmiq-badge">
-                            <img src="https://framerusercontent.com/images/316buMZrG1H9DPWYlXkQ6mLc6jQ.svg" alt="">
-                        </span>
-                        <span class="cozmiq-badge">
-                            <img src="https://framerusercontent.com/images/j2gQIiBepMwDTvYu5CrplQyEY.svg" alt="">
-                        </span>
-                    </div>
-                    <span class="cozmiq-card__blur" aria-hidden="true"></span>
-                </article>
+            <article class="cozmiq-card wow animate__animated animate__fadeInUp" data-wow-delay="0.45s" data-wow-duration="750ms" data-wow-offset="80">
+                <h5 class="cozmiq-card__title wow animate__animated animate__fadeInUp" data-wow-delay="0.50s" data-wow-duration="650ms" data-wow-offset="80">Front-end development</h5>
+                <p class="cozmiq-card__text wow animate__animated animate__fadeInUp" data-wow-delay="0.55s" data-wow-duration="650ms" data-wow-offset="80">Expert in HTML, CSS, React, and Vue, JavaScript, crafting responsive, high-performance websites.</p>
+                <div class="cozmiq-badges wow animate__animated animate__fadeIn" data-wow-delay="0.60s" data-wow-duration="650ms" data-wow-offset="80" aria-label="Technologies">
+                <span class="cozmiq-badge"><img src="https://framerusercontent.com/images/n5CEwhgZCi8YMpBM8eLbsTfqWYc.svg" alt=""></span>
+                <span class="cozmiq-badge"><img src="https://framerusercontent.com/images/b9g2Dj1jffkEPoX1UQhB7lHYhT8.svg" alt=""></span>
+                <span class="cozmiq-badge"><img src="https://framerusercontent.com/images/xGjtb1xCK7oUQTIaKdXOpr232Y.svg" alt=""></span>
+                <span class="cozmiq-badge"><img src="https://framerusercontent.com/images/6SgnWajlcu6YoiI7sEs659RD4Y.svg" alt=""></span>
+                <span class="cozmiq-badge"><img src="https://framerusercontent.com/images/okD1Nqfmn6r30BLjXdQ0K7fdM.svg" alt=""></span>
+                </div>
+                <span class="cozmiq-card__blur" aria-hidden="true"></span>
+            </article>
+
+            <article class="cozmiq-card wow animate__animated animate__fadeInUp" data-wow-delay="0.60s" data-wow-duration="750ms" data-wow-offset="80">
+                <h5 class="cozmiq-card__title wow animate__animated animate__fadeInUp" data-wow-delay="0.65s" data-wow-duration="650ms" data-wow-offset="80">UI/UX design</h5>
+                <p class="cozmiq-card__text wow animate__animated animate__fadeInUp" data-wow-delay="0.70s" data-wow-duration="650ms" data-wow-offset="80">I ensure every detail enhances the user <br> experience while aligning with your brand's vision.</p>
+                <div class="cozmiq-badges wow animate__animated animate__fadeIn" data-wow-delay="0.75s" data-wow-duration="650ms" data-wow-offset="80" aria-label="Tools">
+                <span class="cozmiq-badge"><img src="https://framerusercontent.com/images/kXP9RlvjhwyQRQS350pRwn2opC8.svg" alt=""></span>
+                <span class="cozmiq-badge"><img src="https://framerusercontent.com/images/USSjdfchrFdv1GByrJ3zBNfAGw.svg" alt=""></span>
+                <span class="cozmiq-badge"><img src="https://framerusercontent.com/images/I4wzR6mmBX4Xflsh36XXaewABc.svg" alt=""></span>
+                <span class="cozmiq-badge"><img src="https://framerusercontent.com/images/316buMZrG1H9DPWYlXkQ6mLc6jQ.svg" alt=""></span>
+                <span class="cozmiq-badge"><img src="https://framerusercontent.com/images/j2gQIiBepMwDTvYu5CrplQyEY.svg" alt=""></span>
+                </div>
+                <span class="cozmiq-card__blur" aria-hidden="true"></span>
+            </article>
             </div>
         </div>
+
         <div class="cozmiq-border">
             <div class="cozmiq-mid-border">
-                <div class="cozmiq-bg"></div>
+            <div class="cozmiq-bg"></div>
             </div>
         </div>
-    </section>
+        </section>
+
     <section class="cozmiq-about">
         <div class="cozmiq-container">
             <div class="project-content">
@@ -323,4 +297,54 @@
             </div>
         </div>
     </section>
+
+
+    <section class="cozmiq-contact">
+        <div class="cozmiq-border">
+            <div class="cozmiq-mid-border">
+                <div class="cozmiq-bg"></div>
+            </div>
+        </div>
+        <div class="cozmiq-container">
+            <div class="cozmiq-contact__header">
+                <h2 class="cozmiq-contact__title">How can I help you?</h2>
+                <p class="cozmiq-contact__subtitle">Got a project or collaboration in mind? Reach out, and I’ll get back to you soon!</p>
+            </div>
+
+            <form class="cozmiq-contact__form" action="#" method="post" novalidate>
+                <div class="cozmiq-field">
+                    <label for="cozmiq-name">Name</label>
+                    <input id="cozmiq-name" name="name" type="text" autocomplete="name" />
+                </div>
+
+                <div class="cozmiq-field">
+                    <label for="cozmiq-email">Email address <span aria-hidden="true">*</span></label>
+                    <input id="cozmiq-email" name="email" type="email" required autocomplete="email" />
+                </div>
+
+                <div class="cozmiq-field cozmiq-field--full">
+                    <label for="cozmiq-message">Message <span aria-hidden="true">*</span></label>
+                    <textarea id="cozmiq-message" name="message" rows="6" required></textarea>
+                </div>
+
+                <div class="cozmiq-actions form-btn-between">
+                    <button type="submit" class="cozmiq-btn cozmiq-btn--primary">Send message</button>
+
+                    <a class="cozmiq-btn cozmiq-btn--ghost" href="https://cal.com/" target="_blank" rel="noopener">
+                        <span class="cozmiq-call-chip">
+                            <span class="cozmiq-avatar">
+                                <img src="https://framerusercontent.com/images/2oSRzohxW6QjKgtlTllhPoSuGrg.jpg" alt="Avatar" />
+                            </span>
+                            <span class="cozmiq-amp">&amp;</span>
+                            <span class="cozmiq-you">You</span>
+                        </span>
+                        <span class="cozmiq-label">Book a call</span>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    
 <?php endif; ?>
