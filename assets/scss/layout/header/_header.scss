@@ -164,7 +164,7 @@ header.header-area {
     display: block;
     height: 1px;
     position: relative;
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 
     & .cozmiq-mid-border{

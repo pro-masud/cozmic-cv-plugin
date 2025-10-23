@@ -150,7 +150,7 @@
     </section>
 
 
-    <section class="cozmiq-section" id="experience">
+    <section class="cozmiq-section">
         <div class="cozmiq-container">
             <div class="cozmiq-accordion">
 
@@ -278,4 +278,21 @@
             </div>
         </div>
     </section>
+
+    <section class="cozmiq-last-work">
+        <div class="cozmiq-container">
+            <div class="cozmiq-last-work-content">
+                <div class="last-work-bg" style="background-image: url(https://framerusercontent.com/images/Jcy40i3RouKciijCCfOcj3Ox53M.png);"></div>
+                <div class="last-work-info text-center">
+                    <h2 class="last-work-title">Stay updated with my <br> latest work</h2>
+                    <p class="last-work-desc">14 years in web development and design, creating impactful solutions for top brands.</p>
+                    <form class="cozmiq-submission-form mt-35" >
+                        <input type="text" type="email" id="form-email" placeholder="Your email address" required>
+                        <a href="#work" class="cozmiq-btn cozmiq-btn--primary">View case study</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 <?php endif; ?>
